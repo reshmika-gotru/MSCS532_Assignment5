@@ -12,6 +12,6 @@ def quick_sort(arr):
         return quick_sort(left) + middle + quick_sort(right)
 
 # Example usage:
-arr = [1000, -7, 800, 999, 100, 50, 0, -0.0005]
+arr = [100, 750, -8.000095, 99999, 0.0000045, 50000, 0, 0.0005]
 sorted_arr = quick_sort(arr)
 print("Sorted array:", sorted_arr)
