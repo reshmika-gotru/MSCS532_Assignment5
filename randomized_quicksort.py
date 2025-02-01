@@ -35,6 +35,6 @@ def partition(arr, min, max):
     return i + 1  # Return the partitioning index
 
 # Example usage:
-arr = [100, 750, -8.000095, 99999, 0.0000045, 50000, 0, 0.0005]
+arr = [1000, 799, 100, 99, 50, 10, 0, -1, -10, -100000]
 randomized_quicksort(arr, 0, len(arr) - 1)
 print("Sorted array:", arr)
